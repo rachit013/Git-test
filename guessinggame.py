@@ -2,8 +2,6 @@ import random
 
 highest = 1000
 answer = random.randint(1, highest)
-
-print(answer)
 guess = 0
 print("please guess a number between 1 to {}: ".format(highest))
 
