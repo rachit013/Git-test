@@ -77,9 +77,9 @@ import ssl
 # t = PrettyTable(table1)
 # print(table1[0])
 
-# file = "Medivir AB aarsredovisning-2020-eng-index (2).pdf"
-# tables = tabula.read_pdf(file, pages="32")
-# print(tabulate(tables[0]))
+file = "Medivir AB aarsredovisning-2020-eng-index (2).pdf"
+tables = tabula.read_pdf(file, pages="32")
+print(tabulate(tables[0]))
 
 
 # tables[0].df
